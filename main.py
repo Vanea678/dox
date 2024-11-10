@@ -4,8 +4,8 @@ import time
 import sys
 
 
-bot = telebot.TeleBot('7402897175:AAGuk37XbAu2iKqB1blCx2PtktJyIkC9G58',parse_mode=None)
-CHAT_ID_TO_SEND = -4283581613
+bot = telebot.TeleBot('Token-bot',parse_mode=None)
+CHAT_ID_TO_SEND = chat-id
 WEB_APP_URL = 'https://duckduckgo.com/'
 
 @bot.message_handler(commands=['start'])
